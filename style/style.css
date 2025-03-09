@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Mea+Culpa&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Slabo+27px&family=Sriracha&display=swap'); 
+:root{
+    --coffee-color-800:#713d3b;
+    --coffee-color-700:#8b4843;
+    --coffee-color-600:#a75a4f;
+    --coffee-color-500:#b46c5b;
+    --coffee-color-400:#c18876;
+    --coffee-color-300:#d4ad9d;
+    --coffee-color-200:#e5cec3;
+    --coffee-color-100:#f2e8e2;
+}
+/* ------------------------- Background Color ------------------------------- */
+.bg-coffee-800{
+    background-color: var(--coffee-color-800) !important;
+}
+.bg-coffee-700{
+    background-color: var(--coffee-color-700) !important;
+}
+.bg-coffee-600{
+    background-color: var(--coffee-color-600) !important;
+}
+.bg-coffee-500{
+    background-color: var(--coffee-color-500) !important;
+}
+.bg-coffee-400{
+    background-color: var(--coffee-color-400) !important;
+}
+.bg-coffee-300{
+    background-color: var(--coffee-color-300) !important;
+}
+.bg-coffee-200{
+    background-color: var(--coffee-color-200) !important;
+}
+.bg-coffee-100{
+    background-color: var(--coffee-color-100) !important;
+}
+/* ------------------------------------------------------------ */
+
+/* ---------------------------- Text Color --------------------- */
+.text-coffee-800{
+    color: var(--coffee-color-800) !important;
+}
+.text-coffee-700{
+    color: var(--coffee-color-700) !important;
+}
+.text-coffee-600{
+    color: var(--coffee-color-600) !important;
+}
+.text-coffee-500{
+    color: var(--coffee-color-500) !important;
+}
+.text-coffee-400{
+    color: var(--coffee-color-400) !important;
+}
+.text-coffee-300{
+    color: var(--coffee-color-300) !important;
+}
+.text-coffee-200{
+    color: var(--coffee-color-200) !important;
+}
+.text-coffee-100{
+    color: var(--coffee-color-100) !important;
+}
+/* -------------------------------------------------------------------- */
+
+/* -------------------------------- Font Style ------------------------ */
+.font-roboto{
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+.font-logo{
+    font-family: "Sriracha", cursive !important;
+}
+/* -------------------------------------------------------------------- */
+
+/* ------------------------------- Hover ------------------------------ */
+.hover-ruler:hover{
+    text-decoration: underline !important;
+}
+/* --------------------------------------------------------------------- */
