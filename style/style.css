@@ -77,3 +77,22 @@
     text-decoration: underline !important;
 }
 /* --------------------------------------------------------------------- */
+
+/* ------------------------------- Hero ------------------------------ */
+.hero{
+    position:relative;
+    background-image: url(https://th.bing.com/th/id/OIP.G0e0TpCR4cP_mYXGcr6GuAHaEK?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -3;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.358);
+}
+/* --------------------------------------------------------------------- */
