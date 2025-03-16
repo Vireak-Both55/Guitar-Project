@@ -87,12 +87,13 @@
     background-position: center;
 }
 .hero::before{
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: -3;
+    z-index: 1;
     height: 100%;
-    background: rgba(0, 0, 0, 0.358);
+    background: rgba(0, 0, 0, 0.53);
 }
 /* --------------------------------------------------------------------- */
