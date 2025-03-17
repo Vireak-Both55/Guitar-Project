@@ -97,3 +97,11 @@
     background: rgba(0, 0, 0, 0.53);
 }
 /* --------------------------------------------------------------------- */
+/* -------------------------------- hover & transition ---------------------------- */
+.bg-hover:hover{
+    background-color: var(--coffee-color-600);
+    color: white;
+}
+.transition{
+    transition: 0.3s ease-in-out;
+}
