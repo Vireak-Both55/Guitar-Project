@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="style/style.css">
     <!-- ------------------------------ Swiper link ------------------------------------ -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <!-- ----------------------------- Animation Link ---------------------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <style>
      swiper-container {
@@ -182,7 +185,7 @@
             </div>    
              </div>
              <!-- ---------------------------------------------------- Feature ------------------------------------------- -->
-              <div class="container p-0 py-4">
+              <div class="container p-0 py-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="d-flex overflow-x-auto ">
                     <div class="col-lg-3 col-md-4 col-6 text-center ">
                         <div class="overflow-hidden mx-auto" style="width: 110px; height: 110px;">
@@ -239,7 +242,7 @@
                     <h4>What's New</h4>
                 </div>
                 <div class="row m-0 ">
-                    <div class="col-6 col-lg-3 col-md-3 text-center pt-3">
+                    <div class="col-6 col-lg-3 col-md-3 text-center pt-3" data-aos="fade-up" data-aos-delay="200">
                         <div class="overflow-hidden" style="height:275px;">
                             <img src="asset/image/electric_guitar.png" alt="" class="h-100 w-100 object-fit-contain">
                         </div>
@@ -247,7 +250,7 @@
                             <p class="text-uppercase fw-bold">electric 40th</p>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-3 text-center pt-3">
+                    <div class="col-6 col-lg-3 col-md-3 text-center pt-3 " data-aos="fade-up" data-aos-delay="200">
                         <div class="overflow-hidden" style="height:275px;">
                             <img src="asset/image/electric_guitar.png" alt="" class="h-100 w-100 object-fit-contain">
                         </div>
@@ -255,7 +258,7 @@
                             <p class="text-uppercase fw-bold">electric 40th</p>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-3 text-center pt-3">
+                    <div class="col-6 col-lg-3 col-md-3 text-center pt-3" data-aos="fade-up" data-aos-delay="200">
                         <div class="overflow-hidden" style="height:275px;">
                             <img src="asset/image/electric_guitar.png" alt="" class="h-100 w-100 object-fit-contain">
                         </div>
@@ -263,7 +266,7 @@
                             <p class="text-uppercase fw-bold">electric 40th</p>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-3 text-center pt-3">
+                    <div class="col-6 col-lg-3 col-md-3 text-center pt-3 "data-aos="fade-up" data-aos-delay="200">
                         <div class="overflow-hidden" style="height:275px;">
                             <img src="asset/image/electric_guitar.png" alt="" class="h-100 w-100 object-fit-contain">
                         </div>
@@ -348,11 +351,100 @@
             </main>
 
 
-        <footer>
+        <footer class="container-fluid position-relative p-0  mt-5 bg">
+            <div class="container bg-danger position-absolute row py-4 align-items-center m-0"
+            style="top: 0px;left:50%; transform: translate(-50%,-50%);">    
+                    <div class="col-lg-6 text-light">
+                        <h2 class = "text-uppercase m-0">subscribe to firends website</h2>
+                    <hr width="100px" class="border-2 bg-body my-0" style="height: 3px;">
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="" class="d-flex  bg-body mt-2 mt-lg-0">  
+                            <input type="email" class="py-2  form-control shadow-none mt-2 mt-lg-0 rounded-0 border-0 " name="" id="" placeholder="Enter Email">
+                            <button class="btn text-uppercase btn-dark rounded-0 px-4">
+                                subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            
+            <div class="bg-dark ">
+                <div class="container pt-3 pt-lg-0">
+                    <div class="row mt-5 m-0 text-light">
+                        <div class=" col-lg-4 py-4 mt-lg-0 ">
+                            <!-- ---------------------- logo ----------------- -->
+                             <div class="d-flex align-items-center mt-5">
+                                <div class="rounded-circle overflow-hidden me-2" style="height: 60px; width: 60px;">
+                                    <img src="asset/icon/Logo.png" class="w-100 h-100 " alt="">
+                                </div>
+                                <h1 class="font-logo">GUITAR</h1>
+                             </div>
+                             <p class="m-0 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vero.</p>
+                             <p class="m-0 mb-2">follow us :</p>
+                             <ul class="nav ">
+                                <li class="nav-link text-light fs-5">
+                                    <i class="bi bi-facebook"></i>
+                                </li>
+                                <li class="nav-link text-light fs-5">
+                                    <i class="bi bi-messenger"></i>
+                                </li>
+                                <li class="nav-link text-light fs-5">
+                                    <i class="bi bi-instagram"></i>
+                                </li>
+                             </ul>
+                        </div>
 
+
+                        <div class="col-lg-4 py-4 pt-5 mt-lg-0 ">
+                            <div class="row ">
+                                <div class="col-6">
+                                    <h2>Product</h2>
+                                    <ul class="list-unstyled">
+                                        <li class="fs-5">Electronic Guitar</li>
+                                        <li class="fs-5">Accoustic Guitar</li>
+                                        <li class="fs-5">Bass</li>
+                                        <li class="fs-5">Piano</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h2>Product</h2>
+                                    <ul class="list-unstyled">
+                                        <li class="fs-5">Electronic Guitar</li>
+                                        <li class="fs-5">Accoustic Guitar</li>
+                                        <li class="fs-5">Bass</li>
+                                        <li class="fs-5">Piano</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 py-4 pt-5 mt-lg-0 ">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h2>Help</h2>
+                                    <ul class="list-unstyled">
+                                        <li class="fs-5">Privacy Portal</li>
+                                        <li class="fs-5">Term of use</li>
+                                        <li class="fs-5">FAQ's</li>
+                                        <li class="fs-5">Piano</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h2>Service</h2>
+                                    <ul class="list-unstyled">
+                                        <li class="fs-5">Support</li>
+                                        <li class="fs-5">Find a Dealer</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark border-top border-secondary text-center text-secondary">
+                <p class="m-0 py-3 fs-5">@Copy right by dj.smle</p>
+            </div>
         </footer>
     </div>
-
     <script>
      var swiperEl = document.querySelector(".mySwiper");
     Object.assign(swiperEl, {
@@ -370,5 +462,6 @@
     });
     swiperEl.initialize()
     </script>
+    <script src="script/script.js"></script>
 </body>
 </html>
